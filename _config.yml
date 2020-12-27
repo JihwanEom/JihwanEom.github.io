@@ -1,0 +1,121 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jihwan Eom
+title: Junior Developer
+email: jihwan.eom@yonsei.ac.kr
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username:  JihwanEom
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+  # icon: fas fa-globe
+  # url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  안녕하세요! ML/DL research와 engnieering을 즐기며 특히 medical AI에 관심이 많은 개발자 엄지환입니다. <BR/> <BR/>
+
+  요즘에는 Clinical data standardization method 연구와 저널 확장을 위한 Low level framework customizing에 집중하고 있습니다.<BR/>
+
+  <BR/>곧 새로운 논문으로 찾아뵙겠습니다 :)
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Yonsei University
+        caption: 2016.03 - Present
+        sub_title: B.S. candidate in Computer Science
+        description: |
+          컴퓨터 전반의 이론과 기초적인 프로그래밍부터 데이터베이스, 네트워크와 같은 다양한 과목들을 배우고 있습니다. 개인적으로 AI에 집중하고 있는 만큼 다음 학기에는 인공지능 관련 수업을 집중적으로 수강할 예정입니다. 
+
+  - title: Experiences # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: DCLAB @ Yonsei
+        link: dclab.yonsei.ac.kr
+        # link_text: boringcompany.com
+        sub_title: Intern
+        caption: 2020.06 - Present
+        description: | # this will include new lines to allow paragraphs
+            KAIST AI연구소와 함께 디지털 감성동반자 연구를 수행했습니다. 
+            Collaborative Sensing & Managing on Stress(CosMos) project를 집중적으로 담당하면서 multi-modal device 이용 deep learning 기반 스트레스 추정 모델을 개발했습니다. 이후 비접촉식 스트레스 상태 추정 딥러닝 모델을 주제로 논문을 작성하고, accept 이후 저널 확장에 집중하고 있습니다.
+
+      - layout: left
+        title: CCIDS @ Severance
+        link: ccids.org
+        # link_text: boringcompany.com
+        sub_title: Assistant AI researcher
+        caption: 2020.11 - Present
+        description: | # this will include new lines to allow paragraphs
+            세브란스병원의 CCIDS(Center for Clinical Imaging Data Science)에서 연구원으로 근무하여 다양한 연구에 참여하고 있습니다. Brain tumor를 중심으로 연구하고 있으며, 최근에는 StyleGAN을 이용한 brain metastates의 automatic detection and segmentation에 관한 연구를 진행하고 있습니다.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: DCLAB - 1
+        caption: 2020.09
+        description: | # this will include new lines to allow paragraphs
+            <em>Attention-based Stress Detection exploiting Non-contact Monitoring of Movement Patterns with IR-UWB radar,</em><BR/>J.H. Shin, J.H. Moon, B.S. Kim, <strong>J.H. Eom</strong>, N.S. Park and K.Y. Lee (accepted ACM-SAC 2021)
+      - layout: left
+        title: CCIDS - 2
+        caption: 2020.11
+        description: | # this will include new lines to allow paragraphs
+            <em>Diffusion Tensor Imaging Radiomics in Corpus Callosum Subregions Differentiates Patients with Schizophrenia from Healthy Controls</em><BR/>Y.W. Park, <strong>J.H. Eom</strong>, J.H. Lee, S.S. Ahn, J.N. Kim, S.K. Lee, S.H. Lee, M.J. Bang (under review)
+      - layout: left
+        title: CCIDS - 3
+        caption: 2020.12
+        description: | # this will include new lines to allow paragraphs
+            <em>Radiomics with Ensemble Machine Learning Predicts Dopamine Agonist Response in Patients with Prolactinoma</em><BR/>Y.W. Park, <strong>J.H. Eom</strong>, S.Y. Kim, H.Y. Kim, S.S. Ahn, C.R. Ku, E.J. Lee, S.H. Kim, S.K. Lee (under review)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

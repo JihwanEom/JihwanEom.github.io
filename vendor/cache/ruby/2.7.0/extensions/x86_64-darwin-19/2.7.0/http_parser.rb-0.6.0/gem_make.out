@@ -1,0 +1,16 @@
+current directory: /Users/eomjihwan/JihwanEom.github.io/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/eomjihwan/.rbenv/versions/2.7.2/bin/ruby -I /Users/eomjihwan/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201227-1173-ww71uj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/eomjihwan/JihwanEom.github.io/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/eomjihwan/JihwanEom.github.io/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/eomjihwan/JihwanEom.github.io/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20201227-1173-1a2zu8b
